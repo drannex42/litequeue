@@ -53,11 +53,11 @@
     }
     // Returns the last item (most recent) at the end of the queue (without dequeuing it). If the queue is empty then undefined is returned.
     recent() {
-        return (queue[queue.length - 1]);
+        return (this.queue[this.queue.length - 1]);
     }
     // Erases and clears the queue
     clear() {
-        return (queue = [])
+        return (this.queue = [])
     }
 }
 
