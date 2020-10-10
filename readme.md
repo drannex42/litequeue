@@ -8,12 +8,12 @@ Simple to use and extensible queue library for javascript.
 
 ### Install
 
-``` npm install litequeue ```
+``` npm install litequeuejs ```
 
 ### Usage
 
 ```
-const { Queue } = require('litequeue');
+const { Queue } = require('litequeuejs');
 
 var queue = new Queue();
 
